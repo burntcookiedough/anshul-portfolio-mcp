@@ -1,0 +1,14 @@
+{
+  "name": "anshul-portfolio-mcp",
+  "version": "1.0.0",
+  "description": "Anshul Panigrahi's portfolio as an MCP server: profile, projects, patents and contact, for any MCP client.",
+  "type": "module",
+  "bin": { "anshul-portfolio-mcp": "server.mjs" },
+  "files": ["server.mjs", "data/"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test.mjs", "sync-data": "node -e \"for (const f of ['resume.json','profile.md']) fetch('https://burntcookiedough.github.io/'+f).then(r=>r.text()).then(t=>require('fs').writeFileSync('data/'+f,t))\"" },
+  "keywords": ["mcp", "model-context-protocol", "portfolio", "resume"],
+  "author": "Anshul Panigrahi <anshulpanigrahi3678@gmail.com> (https://burntcookiedough.github.io/)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/burntcookiedough/anshul-portfolio-mcp" }
+}
