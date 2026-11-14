@@ -4,6 +4,8 @@ Ask your AI assistant about me directly. This is a small [Model Context Protocol
 
 It reads live from my portfolio at **https://burntcookiedough.github.io/**, so answers stay current, and falls back to a bundled copy when offline. No dependencies, no API keys, nothing to configure.
 
+Published on [npm](https://www.npmjs.com/package/anshul-portfolio-mcp) and listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.burntcookiedough/anshul-portfolio-mcp) as `io.github.burntcookiedough/anshul-portfolio-mcp`.
+
 ## Add it
 
 **Claude Code**

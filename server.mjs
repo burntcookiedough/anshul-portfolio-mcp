@@ -13,7 +13,7 @@ import { createInterface } from "node:readline";
 
 const SITE = "https://burntcookiedough.github.io/";
 const NAME = "anshul-portfolio";
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 const MODERN = ["2026-07-28"];
 const LEGACY = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 const META = "io.modelcontextprotocol/";
