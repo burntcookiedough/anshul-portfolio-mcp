@@ -6,7 +6,7 @@ Information Technology undergraduate at VIT who ships AI products end to end: on
 
 - Website: https://burntcookiedough.github.io/
 - MCP server (ask your AI assistant about me): https://github.com/burntcookiedough/anshul-portfolio-mcp
-- Resume (PDF): https://drive.google.com/file/d/19As7v83n54BxIKbTP4S1Tt3fajsoTIfs/view?usp=sharing
+- Resume (PDF): https://drive.google.com/file/d/1iVJAJnojFs2xtPHplfOZ0s6a-u1Kz-KO/view?usp=sharing
 - Email: anshulpanigrahi3678@gmail.com
 - GitHub: https://github.com/burntcookiedough
 - LinkedIn: https://linkedin.com/in/anshul-panigrahi22
@@ -160,4 +160,4 @@ A workstation that stays unlocked only while a live pulse is present and no unkn
 
 Currently building: Hermes Agent + custom tool harness.
 
-Last updated 2026-11-13.
+Last updated 2026-11-14.
