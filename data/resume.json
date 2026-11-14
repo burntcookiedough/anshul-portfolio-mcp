@@ -151,6 +151,20 @@
   ],
   "projects": [
     {
+      "name": "Open source: repowise-dev/repowise",
+      "description": "Merged pull request: fix(update): read stored health data from a configured database",
+      "highlights": [
+        "With the database configured through REPOWISE_DB_URL, four incremental loaders still checked for a repo-local .repowise/wiki.db that is absent by design, so every incremental update read no stored git metadata, callers or coverage. Gated them on the configured store instead; one regression test per loader fails on main and passes with the fix, and the 738 tests touching these loaders still pass. Fixes issue #2406."
+      ],
+      "keywords": [
+        "Open source",
+        "Python",
+        "Testing"
+      ],
+      "url": "https://github.com/repowise-dev/repowise/pull/5399",
+      "endDate": "2026-11-12"
+    },
+    {
       "name": "Eve — Windows Dictation",
       "description": "Hold a hotkey, speak, and your words land wherever you were typing. A shipped desktop app with offline speech recognition, a live overlay, searchable history and CPU/GPU fallback.",
       "highlights": [
@@ -263,6 +277,6 @@
   ],
   "meta": {
     "canonical": "https://burntcookiedough.github.io/resume.json",
-    "lastModified": "2026-11-12"
+    "lastModified": "2026-11-13"
   }
 }

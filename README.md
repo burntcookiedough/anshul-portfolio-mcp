@@ -9,7 +9,7 @@ It reads live from my portfolio at **https://burntcookiedough.github.io/**, so a
 **Claude Code**
 
 ```
-claude mcp add anshul -- npx -y github:burntcookiedough/anshul-portfolio-mcp
+claude mcp add anshul -- npx -y anshul-portfolio-mcp
 ```
 
 **Claude Desktop, Cursor and other clients** (add to the `mcpServers` section of the client's config):
@@ -19,7 +19,7 @@ claude mcp add anshul -- npx -y github:burntcookiedough/anshul-portfolio-mcp
   "mcpServers": {
     "anshul": {
       "command": "npx",
-      "args": ["-y", "github:burntcookiedough/anshul-portfolio-mcp"]
+      "args": ["-y", "anshul-portfolio-mcp"]
     }
   }
 }

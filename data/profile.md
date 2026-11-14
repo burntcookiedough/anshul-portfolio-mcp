@@ -5,6 +5,7 @@ AI engineer building LLM products and tool-using agents. Vellore, India.
 Information Technology undergraduate at VIT who ships AI products end to end: on-device speech, LLM analytics that still work without the model, multi-agent support systems with human approval gates. Co-inventor on three published Indian patent applications. Looking for AI engineering internships with product teams shipping LLM features, agents and tool use.
 
 - Website: https://burntcookiedough.github.io/
+- MCP server (ask your AI assistant about me): https://github.com/burntcookiedough/anshul-portfolio-mcp
 - Resume (PDF): https://drive.google.com/file/d/19As7v83n54BxIKbTP4S1Tt3fajsoTIfs/view?usp=sharing
 - Email: anshulpanigrahi3678@gmail.com
 - GitHub: https://github.com/burntcookiedough
@@ -18,6 +19,10 @@ May 2026 to Jul 2026
 
 - Engineered a nine-stage data-quality pipeline for 26,419 images across 8 fruit classes: label normalization, perceptual-hash leakage checks, annotation filtering and training-set balancing.
 - Trained YOLOv8s for 120 epochs; 80.4% precision and 66.2% mAP@50 on 4,728 holdout images; diagnosed domain-shift failures on a separate 155-image synthetic webcam stress set.
+
+## Open source
+
+- Merged PR to repowise-dev/repowise (codebase intelligence for AI agents and humans over MCP, 8.1k stars), 2026-11-12: fix(update): read stored health data from a configured database. With the database configured through REPOWISE_DB_URL, four incremental loaders still checked for a repo-local .repowise/wiki.db that is absent by design, so every incremental update read no stored git metadata, callers or coverage. Gated them on the configured store instead; one regression test per loader fails on main and passes with the fix, and the 738 tests touching these loaders still pass. Fixes issue #2406. https://github.com/repowise-dev/repowise/pull/5399
 
 ## Projects
 
@@ -155,4 +160,4 @@ A workstation that stays unlocked only while a live pulse is present and no unkn
 
 Currently building: Hermes Agent + custom tool harness.
 
-Last updated 2026-11-12.
+Last updated 2026-11-13.
