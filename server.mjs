@@ -65,7 +65,7 @@ const findProject = (r, name) => {
 };
 
 // ───────────── tools ─────────────
-const ro = { readOnlyHint: true, idempotentHint: true, openWorldHint: false };
+const ro = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 const TOOLS = [
   {
     name: "get_profile",

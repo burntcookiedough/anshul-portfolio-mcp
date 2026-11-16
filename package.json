@@ -15,7 +15,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node test.mjs",
+    "test": "node test/server.test.mjs",
     "sync-data": "node -e \"for (const f of ['resume.json','profile.md']) fetch('https://burntcookiedough.github.io/'+f).then(r=>r.text()).then(t=>require('fs').writeFileSync('data/'+f,t))\""
   },
   "keywords": [

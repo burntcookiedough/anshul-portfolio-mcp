@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 
 const M = "io.modelcontextprotocol/";
 function client() {
-  const p = spawn(process.execPath, [new URL("./server.mjs", import.meta.url).pathname.replace(/^\/(\w:)/, "$1")], { stdio: ["pipe", "pipe", "pipe"] });
+  const p = spawn(process.execPath, [new URL("../server.mjs", import.meta.url).pathname.replace(/^\/(\w:)/, "$1")], { stdio: ["pipe", "pipe", "pipe"] });
   const waiting = new Map(); let buf = "", id = 0, stdoutJunk = [];
   p.stdout.on("data", (d) => {
     buf += d; let i;
