@@ -1,6 +1,6 @@
 {
   "name": "anshul-portfolio-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "mcpName": "io.github.burntcookiedough/anshul-portfolio-mcp",
   "description": "Anshul Panigrahi's portfolio as an MCP server: profile, projects, patents and contact, for any MCP client.",
   "type": "module",

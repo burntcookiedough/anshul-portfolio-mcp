@@ -1,5 +1,5 @@
 // Drives server.mjs over stdio as a real MCP client would, in both protocol eras,
-// and asserts on what comes back. Run: node test.mjs   (OFFLINE=1 to force the bundled data)
+// and asserts on what comes back. Run: npm test   (OFFLINE=1 to force the bundled data)
 import { spawn } from "node:child_process";
 import assert from "node:assert/strict";
 

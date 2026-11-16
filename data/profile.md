@@ -160,4 +160,4 @@ A workstation that stays unlocked only while a live pulse is present and no unkn
 
 Currently building: Hermes Agent + custom tool harness.
 
-Last updated 2026-11-14.
+Last updated 2026-11-16.
